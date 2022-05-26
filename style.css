@@ -30,7 +30,7 @@ nav{
     border-radius: 1rem;
     }
 
- .mobile-headerbox{
+ #welcome-box{
      display: flex;
      flex-direction: column;
      margin-top: 2rem;
@@ -53,11 +53,19 @@ nav{
      margin-right: 1rem;
  }
 
- .section-box{
-    background-color: white; 
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+
+#mywork-box{
+background-color: white; 
+margin-top: 2rem;
+margin-bottom: 3rem;
 }
+
+#aboutme-box{
+background-color: white; 
+margin-top: 2rem;
+margin-bottom: 3rem;
+}
+
 
 .section-header{
     font-size: 3rem;
@@ -131,6 +139,17 @@ nav{
     padding-right: 200px;
   }
 
+.footer{
+    background-color: rgb(236, 236, 236);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}  
+
+.footer p{
+    text-align: center;
+    font-size: 0.75rem;
+}
+
  @media screen and (min-width: 1024px){
 
     nav ul{
@@ -147,17 +166,18 @@ nav{
         display: block;
         }
 
-.mobile-headerbox{
+#welcome-box{
     flex-direction: row;
 }
 
-.hero-image{
-    width: 46%;
+#hero-image{
+    width: 50%;
 }
 
 .subheading{
    display: grid;
    place-items: top; 
+   padding top: 10%;
    margin-left: 2rem;
    margin-top: 3rem;
    font-size: 1rem;
@@ -165,7 +185,4 @@ nav{
 
 .portfolio-container{
     flex-direction: row;
-}
-
-
 }
